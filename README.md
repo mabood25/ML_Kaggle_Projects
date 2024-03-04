@@ -1,0 +1,1 @@
+This repository contains the solution to the famous "Titanic" dataset, commonly used for data analysis and machine learning practice. The Titanic dataset contains information about the passengers aboard the RMS Titanic, including whether they survived or not.
