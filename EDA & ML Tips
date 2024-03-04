@@ -21,7 +21,7 @@ Accuracy: 0.788
 Precision: 0.748
 Recall: 0.717
 F1 Score: 0.732
-Further improved using the pycaret library:
+Further improved using the pycaret library - Gradient Boosting Classifier:
 Accuracy: 0.840
 Precision: 0.730
 Recall: 0.720
