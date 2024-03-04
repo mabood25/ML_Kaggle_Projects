@@ -1,0 +1,28 @@
+EDA & ML Tips:
+Handling Missing Data:
+
+Instead of imputing missing age data, multiple linear regression was utilized.
+Extensive dataset research led to discovering missing embarkation data online.
+Creating Dummy Variables:
+
+Significant use of pd.get_dummies for Sex, Pclass, Embarked, and Survived variables. Improves interpretability and aids the training set.
+Note: Changing the 'Survived' variable to categorical is essential for the final logistic regression.
+
+Performance Metrics for Linear Regression:
+
+MAE on training set: 9.81
+MSE on training set: 152.72
+RMSE on training set: 12.36
+R² on training set: 0.275
+Model Construction:
+
+Started with logistic regression on the test set yielding:
+Accuracy: 0.788
+Precision: 0.748
+Recall: 0.717
+F1 Score: 0.732
+Further improved using the pycaret library:
+Accuracy: 0.840
+Precision: 0.730
+Recall: 0.720
+F1 Score: 0.770
